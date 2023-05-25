@@ -1,7 +1,7 @@
 <template>
     <div class="main-block">
         <h1>
-            Your <span>GPT AI-Assistant</span> <br /> for Teachers
+            Your <span>GPT AI-Assistant</span> for Teachers
         </h1>
 
         <div class="base-button-wrapper">
@@ -70,16 +70,9 @@ export default {
     background: radial-gradient(ellipse at center, $primaryLight, $primary 70%);
 
     h1 {
-        font-size: 6.25rem !important;
-        line-height: 7.5rem !important;
+        font-size: 3.25rem !important;
+        line-height: 3.5rem !important;
         margin-bottom: 2rem;
-        margin-top: 6.25rem;
-
-        @media (max-width: 1200px) {
-            font-size: 3.75rem !important;
-            line-height: 3.75rem !important;
-            margin-top: 6.5625rem;
-        }
 
         @include for-tablet-portrait-down {
             font-size: 3rem !important;
@@ -109,11 +102,7 @@ export default {
     }
 
     .empty_space {
-        height: 90px;
-
-        @include for-tablet-portrait-down {
-            height: 45px !important;
-        }
+        height: 45px;
     }
 
     .v-row--custom {
