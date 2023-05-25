@@ -20,7 +20,7 @@
             </div>
         </v-app-bar>
 
-        <v-navigation-drawer v-model="drawer" absolute temporary right color="primary" dark
+        <v-navigation-drawer v-model="drawer" absolute temporary left color="primary" dark
             class="v-navigation-drawer--custom">
             <div class="navigation-drawer-wrapper">
                 <v-btn color="pink" class="close-button" icon @click="drawer = false">
