@@ -184,6 +184,10 @@ export default {
             padding: 0 3rem;
         }
 
+        @include for-phone-only {
+            padding: 0 1rem;
+        }
+
         .block {
             border: 0.15rem solid #2f325a;
             background-color: $blueDark;

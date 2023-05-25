@@ -33,7 +33,7 @@
                 </div>
 
                 <div class="links-wrapper">
-                    <a v-for="link in links" :key="link.id" :href="`#${link.id}`">{{ link.title }}</a>
+                    <a v-for="link in links" :key="link.id" :href="`#${link.id}`" @click="drawer = false">{{ link.title }}</a>
                 </div>
 
                 <base-button title="Join Free"></base-button>
