@@ -1,0 +1,8 @@
+@import "./colors.scss";
+@import "./screen.scss";
+
+@mixin liner-gradient-style-for-text {
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(90deg, $pink 0, $success);
+    -webkit-background-clip: text;
+}
