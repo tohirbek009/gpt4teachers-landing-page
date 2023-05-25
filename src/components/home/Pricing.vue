@@ -129,7 +129,7 @@ import BaseButton from '../ui/BaseButton.vue';
 
 export default {
     name: "Pricing-Component",
-    comments: {
+    components: {
         BaseButton
     },
 }

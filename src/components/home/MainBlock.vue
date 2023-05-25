@@ -51,7 +51,7 @@
 <script>
 import BaseButton from '../ui/BaseButton.vue';
 export default {
-    comments: {
+    components: {
         BaseButton
     },
 }
