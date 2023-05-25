@@ -9,38 +9,40 @@
                 </v-btn>
             </v-card-text>
 
-            <v-row class="footer-main">
-                <v-col cols="12" md="3">
-                    <div class="first-part align-center align-md-start">
-                        <div class="logo">
-                            <v-img src="../../assets/logo.png" />
+            <v-container fuid>
+                <v-row class="footer-main">
+                    <v-col cols="12" md="3">
+                        <div class="first-part align-center align-md-start">
+                            <div class="logo">
+                                <v-img src="../../assets/logo.png" />
+                            </div>
+                            <div class="support-email">
+                                <a href="mailto:support@gpt4teachers.com">support@gpt4teachers.com</a>
+                            </div>
                         </div>
-                        <div class="support-email">
-                            <a href="mailto:support@gpt4teachers.com">support@gpt4teachers.com</a>
+                    </v-col>
+                    <v-col cols="12" md="3">
+                        <div class="next-part align-center align-md-start">
+                            <h3>Support</h3>
+                            <a href="#">Help</a>
+                            <a href="#">Enterprise</a>
+                            <a href="#">Our Blog</a>
+                            <a href="#">API</a>
+                            <a href="#">Community</a>
                         </div>
-                    </div>
-                </v-col>
-                <v-col cols="12" md="3">
-                    <div class="next-part align-center align-md-start">
-                        <h3>Support</h3>
-                        <a href="#">Help</a>
-                        <a href="#">Enterprise</a>
-                        <a href="#">Our Blog</a>
-                        <a href="#">API</a>
-                        <a href="#">Community</a>
-                    </div>
-                </v-col>
-                <v-col cols="12" md="3">
-                    <div class="next-part align-center align-md-start">
-                        <h3>About</h3>
-                        <a href="#">Terms & Conditions</a>
-                        <a href="#">Privacy Policy</a>
-                        <a href="#pricing">Pricing</a>
-                        <a href="/">Log In</a>
-                        <a href="/">Sign Up</a>
-                    </div>
-                </v-col>
-            </v-row>
+                    </v-col>
+                    <v-col cols="12" md="3">
+                        <div class="next-part align-center align-md-start">
+                            <h3>About</h3>
+                            <a href="#">Terms & Conditions</a>
+                            <a href="#">Privacy Policy</a>
+                            <a href="#pricing">Pricing</a>
+                            <a href="/">Log In</a>
+                            <a href="/">Sign Up</a>
+                        </div>
+                    </v-col>
+                </v-row>
+            </v-container>
 
             <v-divider></v-divider>
 
