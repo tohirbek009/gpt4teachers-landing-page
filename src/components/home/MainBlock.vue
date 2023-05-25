@@ -72,7 +72,7 @@ export default {
     h1 {
         font-size: 3.25rem !important;
         line-height: 3.5rem !important;
-        margin-bottom: 2rem;
+        margin-bottom: 3.5rem;
 
         @include for-tablet-portrait-down {
             font-size: 3rem !important;
@@ -102,7 +102,7 @@ export default {
     }
 
     .empty_space {
-        height: 45px;
+        height: 76px;
     }
 
     .v-row--custom {
