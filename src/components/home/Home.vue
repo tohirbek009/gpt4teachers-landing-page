@@ -7,6 +7,9 @@
             <div class="empty_space"></div>
             <how-it-works />
             <div class="empty_space"></div>
+            <div class="empty_space"></div>
+            <f-a-q />
+            <div class="empty_space"></div>
         </v-container>
         <pricing />
     </v-main>
@@ -17,16 +20,17 @@ import MainBlock from './MainBlock.vue';
 import WhatCanDo from './WhatCanDo.vue';
 import HowItWorks from './HowItWorks.vue';
 import Pricing from './Pricing.vue';
+import FAQ from './FAQ.vue';
 
 export default {
-    comments: {
+    components: {
         MainBlock,
         WhatCanDo,
         HowItWorks,
-        Pricing
+        Pricing,
+        FAQ
     },
     name: "Home-Component",
-    components: { MainBlock, WhatCanDo, HowItWorks, Pricing }
 }
 </script>
 
